@@ -1,0 +1,143 @@
+body{
+  font-family: "Montserrat";
+  text-align:center;
+}
+#title{
+  background-color: #BAD62F;
+  color:#fff;
+}
+.hing{
+  font-family: 'Ubuntu', sans-serif;
+  text-align:left;
+  font-size:3.5rem;
+  line-height: 1.5;
+}
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+/* Navigation Bar*/
+.navbar{
+  padding-bottom: 4.5rem;
+  padding-left: 0;
+}
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size:2.5rem;
+  font-weight: bold;
+
+}
+.nav-item{
+  padding:0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat-light"
+}
+/*button*/
+.btn{
+  margin:5% 3% 5% 0%;
+}
+/*phone image*/
+.ph-img{
+  width:60%;
+  transform:rotate(25deg);
+  position:absolute;
+ right:30%;
+
+}
+/*Section 2 paragraphs*/
+.Sec-2{
+  color: #40514E;
+}
+#features{
+
+  padding:7% 15%;
+  background-color:#fff;
+  position:relative;
+}
+
+.icon{
+color:  #DCF07A;
+margin-bottom: 1rem;
+}
+.icon:hover{
+  color:#BAD62F;
+}
+/*testimonials*/
+#testimonials{
+  padding:7% 15%;
+
+  color:#fff;
+  background-color:#BAD62F;
+}
+h2{
+  font-family: "Montserrat-Bold";
+  size:3rem;
+  line-height: 1.5;
+}
+.test-img{
+  width:150px;
+  border-radius: 100%;
+  padding:20px;
+}
+#press{
+  background-color:#BAD62F;
+
+  padding-bottom: 3%;
+}
+.press-logo{
+  width:15%;
+  margin:20px 20px 50px;
+}
+/*----------------carousel item------------------------*/
+.carousel-item{
+  padding:7% 15%;
+}
+/*pricing sectioon*/
+#pricing{
+  padding:100px;
+
+}
+.pricing-column{
+  padding:3% 2%;
+}
+@media (max-width:1028px){
+  .ph-img{
+    position:static;
+    transform:rotate(0);
+  }
+}
+#cta{
+  background-color: #BAD62F;
+  color:#fff;
+
+}
+#footer{
+  background-color: #fff;
+
+  padding:100px 100px 10px;
+  line-height: 2;
+  font-size: 1rem;
+  color:#40514E;
+}
+.foot-link{
+  margin:5% 2% 4% 1%;
+  color:black;
+}
+.fa-phone{
+  margin-left:4%;
+  margin-right:5%;
+}
+.pad{
+  padding-right:2%;
+}
+p {
+  color: #8f8f8f;
+}
+#love{
+  background-color: #edf492;
+  color:#fff;
+}
+label{
+  font-size: 2rem;
+}
